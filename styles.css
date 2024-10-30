@@ -1,0 +1,72 @@
+* body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Mengatur tinggi penuh */
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'lucida sans', 'lucida sans';
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #747474;
+    color: #333;
+}
+
+header {
+    .video-background video {
+        min-width: 50%;
+        min-height: 50%;
+        width: auto;
+        height: auto;
+        position: fixed;
+        top: 100%;
+        left: 100%;
+        transform: translate(-50%, -50%);
+        z-index: -1; /* Di belakang konten */
+    }
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+
+    .round-img {
+    width: 250px; /* Atur sesuai kebutuhan */
+    height: 250px; /* Atur sesuai kebutuhan */
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    object-fit: 3d; /* Memastikan gambar tidak terdistorsi */
+    box-shadow: 10px 20px 50px rgba(65, 10, 124, 0.5)
+  }
+
+
+
+section {
+    color:white;
+    padding: 20px;
+    margin: 10px 0;
+    background: rgb(35, 0, 73);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+h2 {
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 5px;
+}
+
+.job, .education-item {
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #333;
+    color: rgb(0, 0, 0);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
